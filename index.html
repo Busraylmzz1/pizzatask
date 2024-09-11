@@ -1,26 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
-    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workintech + 🍕</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./public/assets/iteration-1/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.google.com/share?selection.family=Roboto+Condensed:ital,wght@0,100..900;1,100..900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Teknolojik Yemekler</title>
   </head>
-
+  
+  
   <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
-        </p>
+    <header class="header-section">
+      <div class="header-content">
+        <img src="./public/assets/iteration-1/logo.svg" alt="logo" />
+        <div class="header-headings">
+          <p class="italic-heading">fırsatı kaçırma</p>
+          <p class="main-heading">kod acıktırır pizza, doyurur</p>
+        </div>
+        <a class="btn header-btn" href="/">ACIKTIM</a>
       </div>
-    </div>
+    </header>
+    <main>
+      <nav>
+        <div class="container menu-items">
+          <a href="#">
+            <span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/1.svg" alt="" /> </span
+            >YENi! Kore</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/2.svg" alt="" /> </span
+            >Pizza</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/3.svg" alt="" /> </span
+            >Burger</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/4.svg" alt="" /> </span
+            >Kızartmalar</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/5.svg" alt="" /> </span
+            >Fast Food</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./public/assets/iteration-2/icons/6.svg" alt="" /> </span
+            >İçecekler</a
+          >
+        </div>
+      </nav>
+      <section class="card-section">
+        <div class="container">
+          <div class="cards">
+            <div class="card card-1">
+              <h1>Özel<br />Lezzetus</h1>
+              <p>Position: Absolute Acı Burger</p>
+              <a class="btn order-btn" href="#">SİPARİŞ VER</a>
+            </div>
+            <div class="mini-cards">
+              <div class="card card-2">
+                <h3>Hackathlon Burger Menü</h3>
+                <a class="btn order-btn" href="#">SİPARİŞ VER</a>
+              </div>
+              <div class="card card-3">
+                <h3>
+                  <span class="card-3-span">Çoooook</span> hızlı npm gibi kurye
+                </h3>
+                <a class="btn order-btn" href="#">SİPARİŞ VER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-section">
+        <div class="container">
+          <div class="menu-headings">
+            <p class="italic-heading">en çok paketlenen menüler</p>
+            <p class="main-menu-heading">Acıktıran Kodlara Doyuran Lezzetler</p>
+          </div>
+      <nav>
+        <div class="menu-items bottom-menu">
+          <a href="#">
+            <span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/1.svg" /> </span
+            >Ramen</a
+          >
+          <a class="active" href="#"
+            ><span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/2.svg" /> </span
+            >Pizza</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/3.svg" /> </span
+            >Burger</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/4.svg" /> </span
+            >Kızartmalar</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/5.svg" /> </span
+            >Fast Food</a
+          >
+          <a href="#"
+            ><span class="nav-item-icon">
+              <img src="./assets/iteration-2/icons/6.svg" /> </span
+            >İçecekler</a
+          >
+        </div>
+      </nav>
+
+      <div class="menu-cards"> 
+        <div class="menu-card"> 
+          <img src="./assets/iteration-2/pictures/food-1.png" alt="pizza"/>
+          <div class="menu-card-titles"> 
+            <h3>terminal pizza</h3>
+            <div class="stats"> 
+              <div class="reviews">
+                <p>4.9</p>
+                <p>(200)</p>
+              </div>
+              <p class="price">60 TL</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card"> 
+          <img src= "./assets/iteration-2/pictures/food-2.png"  alt="acı pizza" />
+          <div class=" menu-card-titles">
+            <h4>Position Absolute Acı Pİzza</h4>
+            <div class="stats">
+             <div class="reviews"> 
+              <p>4.9</p>
+              <p>(200)</p>
+             </div>
+             <p class="price "> 60 TL</p>
+           </div>
+        </div> 
+      </div>
+      <div class="menu-card"> 
+        <img src="./public/assets/iteration-2/pictures/food-3.png" alt="hamburger"/>
+        <div class="menu-card-titles">
+          <h5>useEffect Tavuklu Burger</h5>
+          <div class="stats"> 
+            <div class="reviews" >
+              <p>4.9</p>
+              <p>(200)</p>
+            </div>
+            <p class ="price"> 60 TL</p>
+          </div>
+        </div>
+      </div>
+   </div>
+
+  </main>
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="footer-container"> 
+        <img src="./public/assets/iteration-2/footer/logo-footer.svg" alt="footer"/>
+        <div class="contact-item address">
+          <img src="./public/assets/iteration-2/footer/icons/icon-1.png" alt="adres"/>
+          <p>341 Londondery Road, <br /> Istanbul Türkiye </p>      
+  </footer>
+      
+        
+  
+        
+
+      
+
+
+ 
   </body>
 
 </html>
